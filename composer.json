@@ -1,10 +1,16 @@
 {
-    "name": "hlavacm/wp-tracy",
+    "name": "marekzelezny/wp-tracy",
     "description": "(Nette) Tracy connector for WordPress",
     "keywords": ["tracy", "debugger", "wordpress"],
-    "homepage": "https://github.com/hlavacm/wp-tracy",
+    "homepage": "https://github.com/marekzelezny/wp-tracy",
     "license": "BSD-3-Clause",
     "authors": [
+        {
+            "name": "Marek Železný",
+            "email": "marekzelezny@me.com",
+            "homepage": "https://www.marekzelezny.cz",
+            "role": "Developer"
+        }
         {
             "name": "Martin Hlaváč",
             "email": "hlavacm@hotmail.com",
@@ -13,8 +19,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4.4",
-        "tracy/tracy": "~2.5"
+        "php": ">=7.2",
+        "tracy/tracy": "~2.8"
     },
     "autoload": {
         "classmap": ["src/panels"],
